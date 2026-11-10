@@ -2,6 +2,12 @@
 .env.*
 !.env.example
 
+# Database backups and dumps - never commit these
+backups/
+*.dump
+*.sql
+*.sql.gz
+
 .venv/
 venv/
 __pycache__/
