@@ -217,11 +217,29 @@ export default function Home() {
         </p>
       </section>
 
-      <footer id="security" className="border-t border-white/10 px-6 py-10 lg:px-10">
-        <div className="mx-auto flex max-w-7xl flex-col justify-between gap-5 text-sm text-slate-500 md:flex-row">
-          <p>
-            © 2026 ShellFinance. All rights reserved.
+      <section id="security" className="border-t border-white/10 bg-[#091B29] px-6 py-20 lg:px-10">
+        <div className="mx-auto max-w-7xl">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#19B78A]">
+            Security and privacy
           </p>
+          <h2 className="mt-5 text-3xl font-bold">
+            Security is part of the foundation.
+          </h2>
+          <p className="mt-5 max-w-3xl leading-8 text-slate-400">
+            ShellFinance is currently in its foundation phase. Authentication,
+            secure account management and financial-data protection are being
+            developed before real user financial information is accepted.
+          </p>
+          <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-500">
+            Do not submit banking credentials or sensitive financial
+            information through this demonstration website.
+          </p>
+        </div>
+      </section>
+
+      <footer className="border-t border-white/10 px-6 py-10 lg:px-10">
+        <div className="mx-auto flex max-w-7xl flex-col justify-between gap-5 text-sm text-slate-500 md:flex-row">
+          <p>© 2026 ShellFinance.</p>
           <p>Built for a more financially informed world.</p>
         </div>
       </footer>

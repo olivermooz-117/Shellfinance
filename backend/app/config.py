@@ -6,7 +6,7 @@ class Config:
 
     SQLALCHEMY_DATABASE_URI = os.getenv(
         "DATABASE_URL",
-        "postgresql+psycopg://shellfinance:shellfinance_dev_only@localhost:5432/shellfinance"
+        "postgresql+psycopg://shellfinance:shellfinance_dev_only@localhost:5434/shellfinance",
     )
 
     SQLALCHEMY_TRACK_MODIFICATIONS = False
