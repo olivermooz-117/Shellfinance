@@ -1,7 +1,3 @@
-
-cd ~/Shellfinance
-
-cat > README.md <<'EOF'
 # ShellFinance
 
 An intelligent personal finance and investment management platform.
@@ -224,4 +220,3 @@ and pull requests to the main branch.
 ## Project status
 
 Current phase: Phase 1 — Foundation and initial interface.
-EOF

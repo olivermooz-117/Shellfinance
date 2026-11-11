@@ -1,4 +1,11 @@
 import os
+from pathlib import Path
+
+from dotenv import load_dotenv
+
+# Load the repository-root .env before any setting below is read from the
+# environment. Real environment variables always win (override=False).
+load_dotenv(Path(__file__).resolve().parents[2] / ".env", override=False)
 
 
 class Config:

@@ -26,6 +26,3 @@ build/
 .idea/
 .vscode/
 
-
-# Local database backups (never commit)
-backups/
